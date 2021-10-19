@@ -10,7 +10,7 @@ const ServiceCard = (props) => {
                 <img src={image} className="card-img-top img-fluid" style={{height:"220px"}}  alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Package: {packageName} </h5>
-                    <p className="card-text cardText" data-aos="flip-up">{description}</p>
+                    <p className="card-text cardText">{description}</p>
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">Package Duration: {packageDuration}</li>

@@ -13,10 +13,10 @@ const About = () => {
             </div>
              <div className='container mt-4'>
                 <div className='row d-flex align-items-center'>
-                  <div className='col-md-6' data-aos="fade-left">
+                  <div className='col-md-6'>
                         <img src={aboutImg} alt="" className='img-fluid'/>
                     </div>
-                    <div className='col-md-6' data-aos="fade-right">
+                    <div className='col-md-6'>
                         <h3>Welcome to the Fitness Zone Family </h3>
                         <p className='my-4 text-justify'>There are no judgments here – No too much or not enough. No glares of disapproval. Here we keep open minds. We are nurturers. We seek only to encourage, empower and entertain. There is no one type. There is no one reason. There is no one way.
 
