@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import googleImg from '../../../image/google.jpg'
+import useAuth from './../../../Hooks/useAuth';
 
 // code for registration page
 const Registration = () => {
+    let {handleGoogleSignIn}=useAuth()
     return (
         <div className='row  container'>
             <div className='col-md-6 mx-auto'>
@@ -13,24 +15,24 @@ const Registration = () => {
                         Your Name
                         </label>
                         <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Name" required/>
-                        <label className="form-label mt-3">
-                        Your Phone Number
-                        </label>
-                        <input type="number" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Phone Number" required/>
+
                         <label className="form-label mt-3">
                         Email address
                         </label>
                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Email Address" required/>
+
                         <label className="form-label mt-3">
                         Your Password
                         </label>
+
                         <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Password" required/>
                         </div>
-                        <button className='btn btn-success submitBtn'> Submit </button>
+
+                        <button type='submit' className='btn btn-success submitBtn'> Submit </button>
                         <Link to="/login" className='btn btn-danger ms-3 mt-md-0 mt-4'> Old User??? Click Here  </Link>
                         <br />
                         <p className='mt-3'>sing in using google: </p>
-                        <img className="googleImg" src={googleImg} alt="" style={{height:"30px"}} />
+                        <img onClick={handleGoogleSignIn} className="googleImg" src={googleImg} alt="" style={{height:"30px"}} />
                 </div>
             </div>
     );

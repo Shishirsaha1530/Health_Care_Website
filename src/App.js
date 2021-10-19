@@ -36,9 +36,9 @@ function App() {
         <PrivateRoute exact path='/blogs'>
           <Blog> </Blog>
          </PrivateRoute>
-        <Route exact path='/contact'>
+        <PrivateRoute exact path='/contact'>
             <ContactUsPage> </ContactUsPage>
-         </Route>
+         </PrivateRoute>
         <Route exact path='/login'>
            <Login> </Login>
          </Route>
