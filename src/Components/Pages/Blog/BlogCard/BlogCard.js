@@ -1,5 +1,8 @@
 import React from 'react';
 import './BlogCard.css'
+
+// single blog card design code 
+
 const BlogCard = (props) => {
     const {vlogName, description, image}=props.blogs;
     return (

@@ -3,6 +3,8 @@ import aboutImg from '../../../image/weights-exercise-weightlifter-strong-athlet
 import './About.css'
 import AboutMotive from './AboutMotive';
 import GetStarted from './GetStarted';
+
+// About Page Function Code
 const About = () => {
     return (
         <div className='mt-5'>

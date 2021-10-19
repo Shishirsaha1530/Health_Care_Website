@@ -1,5 +1,6 @@
 import React from 'react';
 
+// About page motive section 
 const AboutMotive = () => {
     return (
         <div className='container mt-5 bg-dark text-white p-4'>

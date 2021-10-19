@@ -5,6 +5,7 @@ import Service from './../Services/AllService/Service';
 import About from './../About/About';
 import ContactUsPage from '../Contact/ContactUsPage';
 
+// code for home page displaying banner, about, service section 
 const Home = () => {
     return (
         <div>

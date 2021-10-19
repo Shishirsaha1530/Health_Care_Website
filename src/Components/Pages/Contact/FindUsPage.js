@@ -1,5 +1,8 @@
 import React from 'react';
 import findImg from '../../../image/undraw_working_out_6psf.svg'
+
+// contact page find us code
+
 const FindUsPage = () => {
     return (
          <div className='mt-5'>

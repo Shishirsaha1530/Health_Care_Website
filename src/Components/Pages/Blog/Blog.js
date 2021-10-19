@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BlogCard from './BlogCard/BlogCard';
 
+// Function for showing all the blogs 
 const Blog = () => {
     let [blogs, setBlogs]=useState([])
     useEffect(()=>{

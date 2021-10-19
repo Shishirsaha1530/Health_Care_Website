@@ -1,5 +1,6 @@
 import React from 'react';
 
+// about page get started page
 const GetStarted = () => {
     return (
         <div className='bg-primary row text-white py-4 mt-5 container-fluid'>

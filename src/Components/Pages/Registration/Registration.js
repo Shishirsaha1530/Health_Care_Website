@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import googleImg from '../../../image/google.jpg'
+
+// code for registration page
 const Registration = () => {
     return (
         <div className='row  container'>

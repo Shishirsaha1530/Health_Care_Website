@@ -5,6 +5,7 @@ const ServiceCard = (props) => {
     const {packageName, description, packageDuration, packageFee, image, id} = props.services;
     return (
         <div>
+        {/* showing single package  data on card  */}
              <div className="card shadow-lg  bg-body rounded" >
                 <img src={image} className="card-img-top img-fluid" style={{height:"220px"}}  alt="..."/>
                 <div className="card-body">

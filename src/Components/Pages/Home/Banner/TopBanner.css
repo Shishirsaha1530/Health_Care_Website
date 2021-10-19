@@ -1,3 +1,4 @@
+/* top banner css style */
 #topBannerBg {
   background-image: url("../../../../image/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
   height: 600px;
@@ -6,6 +7,6 @@
   background-position: center;
   background-size: cover;
 }
-.bannerText{
-    color: white;    
+.bannerText {
+  color: white;
 }

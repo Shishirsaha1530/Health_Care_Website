@@ -3,12 +3,14 @@ import ServiceCard from '../SingleService/ServiceCard';
 
 const Service = () => {
     let [service, setService] = useState([])
+    // loading data
      useEffect(()=>{
         fetch('./service.json')
         .then(res=> res.json())
         .then(data=>setService(data))
     },[])
     return (
+        // showing all the data
          <div className='mt-4 pb-3 container'>
             <div className="main">
                  <h4 className="title">Our Services </h4>

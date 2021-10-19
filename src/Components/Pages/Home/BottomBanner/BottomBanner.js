@@ -1,7 +1,17 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { NavLink } from 'react-router-dom';
 import bannerImg from '../../../../image/undraw_fitness_stats_sht6.svg'
+
+// function code for bottom banner on home page
 const BottomBanner = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+             once:true
+          })        
+    })
     return (
         <div className='homePage mt-5'>
             <div className='container '>

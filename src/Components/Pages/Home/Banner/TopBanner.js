@@ -1,6 +1,9 @@
 import React from 'react';
 import './TopBanner.css';
 import Typing from 'react-typing-animation';
+
+// code for top banner 
+
 const TopBanner = () => {
     return (
         <div id='topBannerBg' className='d-flex justify-content-center align-items-center'>

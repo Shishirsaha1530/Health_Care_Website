@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Login.css'
 import googleImg from '../../../image/google.jpg'
 import useAuth from './../../../Hooks/useAuth';
+
+// login page desgin
 const Login = () => {
     let { handleGoogleSignIn} = useAuth()
     return (
