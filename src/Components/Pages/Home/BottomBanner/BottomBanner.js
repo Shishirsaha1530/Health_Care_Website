@@ -12,7 +12,7 @@ const BottomBanner = () => {
                          </p>
                         <NavLink to='/service' className='btn_get_started mt-3 mt-md-0'> See Services </NavLink>
                     </div>
-                    <div className='col-md-6' data-aos="fade-left">
+                    <div className='col-md-6 mt-md-0 mt-5' data-aos="fade-left">
                         <img src={bannerImg} alt="" className='img-fluid'/>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ const Registration = () => {
                         <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Password" required/>
                         </div>
                         <button className='btn btn-success submitBtn'> Submit </button>
-                        <Link to="/login" className='btn btn-danger ms-3'> Old User??? Click Here  </Link>
+                        <Link to="/login" className='btn btn-danger ms-3 mt-md-0 mt-4'> Old User??? Click Here  </Link>
                         <br />
                         <p className='mt-3'>sing in using google: </p>
                         <img className="googleImg" src={googleImg} alt="" style={{height:"30px"}} />

@@ -20,7 +20,7 @@ const Login = () => {
                         <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Type Your Password" required/>
                         </div>
                         <button className='btn btn-success submitBtn'> Submit </button>
-                        <Link to="/registration" className='btn btn-danger ms-3'> New User??? Click Here  </Link>
+                        <Link to="/registration" className='btn btn-danger ms-3 mt-md-0 mt-4'> New User??? Click Here  </Link>
                         <br />
                         <p className='mt-3'>sing in using google: </p>
                         <img className="googleImg" onClick={handleGoogleSignIn} src={googleImg} alt="" style={{height:"30px"}} />
