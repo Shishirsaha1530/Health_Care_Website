@@ -3,7 +3,7 @@ import TopBanner from './Banner/TopBanner';
 import BottomBanner from './BottomBanner/BottomBanner';
 import Service from './../Services/AllService/Service';
 import About from './../About/About';
-import ContactUsPage from '../Contact/ContactUsPage';
+import FindUsPage from './../FindUs/FindUsPage';
 
 // code for home page displaying banner, about, service section 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
             <BottomBanner></BottomBanner>
             <About> </About>
             <Service> </Service>
-            <ContactUsPage> </ContactUsPage>
+            <FindUsPage> </FindUsPage>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import FindUsPage from './FindUsPage';
+
 
 // contact us page function
 const ContactUsPage = () => {
@@ -35,7 +35,7 @@ const ContactUsPage = () => {
                 </div>
             </div>
             </div>
-            <FindUsPage> </FindUsPage>
+           
         </div>
     );
 };
